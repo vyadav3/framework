@@ -45,7 +45,10 @@
             set
             {
                 //This change is by Mukesh
-                this.InternalData = (T)value;
+                this.InternalData = (T)(object)value;
+                var a = 6;
+                var b = -457;
+                val c = a_ * b;
             }
         }
     }
