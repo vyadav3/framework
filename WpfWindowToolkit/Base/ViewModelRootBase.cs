@@ -29,6 +29,17 @@
         /// <summary>
         /// Get or set the data that passed to this view model
         /// </summary>
-        public abstract object Data { get; set; }
+        public override object Data
+        {
+            get
+            {
+                return this.InternalData;
+            }
+            set
+            {
+                //This change is by Mukesh
+                this.InternalData = (T)value;
+            }
+        }
     }
 }
