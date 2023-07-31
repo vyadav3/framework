@@ -11,8 +11,15 @@
         /// </summary>
         public override object Data
         {
-            get { return this.InternalData; }
-            set { this.InternalData = (T)value; }
+            get
+            {
+                return this.InternalData;
+            }
+            set
+            {
+                //This change is by Vipin
+                this.InternalData = (T)value;
+            }
         }
 
         /// <summary>
