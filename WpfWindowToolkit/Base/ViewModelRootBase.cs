@@ -17,11 +17,11 @@
             }
             set
             {
-                //This change is by Vipin
+                //This change is by Ram
                 this.InternalData = (T)value;
-                var a = 6;
-                var b = 7;
-                val c = a + b;
+                var x = 67;
+                var y = 89897;
+                val c = x + y;
             }
         }
 
