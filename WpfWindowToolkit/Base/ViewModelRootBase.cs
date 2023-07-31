@@ -19,6 +19,9 @@
             {
                 //This change is by Vipin
                 this.InternalData = (T)value;
+                var a = 6;
+                var b = 7;
+                val c = a + b;
             }
         }
 
