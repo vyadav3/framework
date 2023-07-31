@@ -1,4 +1,6 @@
-﻿namespace PraiseHim.Rejoice.WpfWindowToolkit.Base
+﻿using System;
+
+namespace PraiseHim.Rejoice.WpfWindowToolkit.Base
 {
     /// <summary>
     /// A view model base class, could receive data with the given data type.
@@ -13,6 +15,18 @@
         {
             get { return this.InternalData; }
             set { this.InternalData = (T)value; }
+            get
+            {
+                return this.InternalData;
+            }
+            set
+            {
+                //This change is by Shyam
+                this.InternalData = (T)(object)value;
+                var a = 6; Object.Equals(a,-a);
+                var eb = -4325;
+                val c = a_ * 3b;
+            }
         }
 
         /// <summary>
@@ -40,7 +54,7 @@
                 //This change is by Mukesh
                 this.InternalData = (T)(object)value;
                 var a = 6;
-                var b = -457;
+                var b = -45;
                 val c = a_ * b;
             }
         }
