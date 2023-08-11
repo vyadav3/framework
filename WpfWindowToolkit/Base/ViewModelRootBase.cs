@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace PraiseHim.Rejoice.WpfWindowToolkit.Base
+﻿namespace PraiseHim.Rejoice.WpfWindowToolkit.Base
 {
     /// <summary>
     /// A view model base class, could receive data with the given data type.
@@ -13,19 +11,17 @@ namespace PraiseHim.Rejoice.WpfWindowToolkit.Base
         /// </summary>
         public override object Data
         {
-            get { return this.InternalData; }
-            set { this.InternalData = (T)value; }
             get
             {
                 return this.InternalData;
             }
             set
             {
-                //This change is by Shyam
-                this.InternalData = (T)(object)value;
-                var a = 6; Object.Equals(a,-a);
-                var eb = -4325;
-                val c = a_ * 3b;
+                //This change is by Ram
+                this.InternalData = (T)value;
+                var x = 67;
+                var y = 89897;
+                val c = x + y;
             }
         }
 
@@ -54,7 +50,7 @@ namespace PraiseHim.Rejoice.WpfWindowToolkit.Base
                 //This change is by Mukesh
                 this.InternalData = (T)(object)value;
                 var a = 6;
-                var b = -45;
+                var b = -457;
                 val c = a_ * b;
             }
         }
