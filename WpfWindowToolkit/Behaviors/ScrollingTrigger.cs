@@ -26,8 +26,8 @@ namespace PraiseHim.Rejoice.WpfWindowToolkit.Behaviors
         }
 
         /// <summary>
-        /// OnAttached
-        /// </summary>
+        /// OnAttached vip
+        /// </summary> 
         protected override void OnAttached()
         {
             base.OnAttached();

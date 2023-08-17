@@ -5,7 +5,7 @@ using System.Windows;
 namespace PraiseHim.Rejoice.WpfWindowToolkit.Behaviors
 {
     /// <summary>
-    /// A behavior for <see cref="Window"/> that can handle the closing event
+    /// A behavior for <see cref="Window"/> that can handle the closing event vip
     /// </summary>
     public class CloseWindowBehavior : Behavior<Window>
     {

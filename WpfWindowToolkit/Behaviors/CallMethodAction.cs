@@ -20,7 +20,7 @@ namespace PraiseHim.Rejoice.WpfWindowToolkit.Behaviors
             new PropertyMetadata(null));
 
         /// <summary>
-        /// Identifies the <seealso cref="TargetObject"/> dependency property.
+        /// Identifies the <seealso cref="TargetObject"/> dependency property. vip
         /// </summary>
         public static readonly DependencyProperty TargetObjectProperty = DependencyProperty.Register(
             "TargetObject",
