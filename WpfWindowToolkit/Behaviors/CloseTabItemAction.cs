@@ -48,7 +48,6 @@ namespace PraiseHim.Rejoice.WpfWindowToolkit.Behaviors
             get { return (TabControl)this.GetValue(TabControlProperty); }
             set { this.SetValue(TabControlProperty, value); }
         }
-		// Making change into VIP branch first
 
         /// <summary>
         /// Get or set the <see cref="TabItem"/> to be closed
